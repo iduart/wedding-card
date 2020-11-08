@@ -10,6 +10,7 @@ import GiftsTitle from "./components/GiftsTitle";
 import LocationTitle from "./components/LocationTitle";
 import Airplane from "./components/Airplane";
 import Car from "./components/Car";
+import paperbg from './img/paperbg.jpg';
 
 export const Main = styled.div`
   overflow-x: hidden;
@@ -23,7 +24,7 @@ export const Header = styled.div`
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  background-color: #f5f5f4;
+  background: url(${paperbg});
   height: 290px;
 
   @media (min-width: 500px) {
@@ -379,7 +380,7 @@ export const Jeymar = styled(JeymarAvatar)`
 export const InvitationInfoContainer = styled.div`
   display: flex;
   justify-content: center;
-  background-color: #f5f5f4;
+  background: url(${paperbg});
   width: 100%;
   padding: 20px 0;
 
