@@ -48,7 +48,7 @@ function InvitationInfo(props) {
         {"DE INDIAS"}
       </text>
       <text
-        transform="translate(138 209)"
+        transform="translate(142 209)"
         fill="#D17A7A"
         fontSize={15.3}
       >
@@ -60,6 +60,7 @@ function InvitationInfo(props) {
           y={0}
           fill="#D17A7A"
           fontSize={17.2}
+          fontWeight="bold"
         >
           {"Radisson Cartagena "}
         </tspan>
@@ -68,6 +69,7 @@ function InvitationInfo(props) {
           y={20.6}
           fill="#D17A7A"
           fontSize={17.2}
+          fontWeight="bold"
         >
           {"Ocean Pavillion Hotel"}
         </tspan>

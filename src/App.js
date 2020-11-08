@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import InvitationInfo from "./components/InvitationInfo";
 
 // image format
-import rochy from "./img/rochy.png";
 import her from "./img/her.png";
 import his from "./img/his.png";
 import map from "./img/map.png";
@@ -161,7 +160,7 @@ function App() {
       </OurHistory>
       <AvatarsContainer>
         <Jeymar />
-        <Rochy src={rochy} alt="rochy" />
+        <Rochy />
       </AvatarsContainer>
       <InvitationInfoContainer id="wedding-info">
         <InvitationInfo />
@@ -209,7 +208,7 @@ function App() {
         <LocationHeaderText />
       </LocationHeaderContainer>
       <LocationContainer id="location">
-        <LocationCircle>
+        <LocationCircle onClick={() => window.location.href = 'https://goo.gl/maps/d5U9aHhjGKyj42Ce8'}>
           <LocationInnerCircle src={map} alt="map" />
         </LocationCircle>
         <AirplaneImg />

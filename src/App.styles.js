@@ -4,6 +4,7 @@ import FlowersImg2 from "./components/FlowersImg2";
 import FlowersImg3 from "./components/FlowersImg3";
 import NosCasamosImg from "./components/NosCasamosImg";
 import JeymarAvatar from "./components/JeymarAvatar";
+import RochyAvatar from "./components/RochyAvatar";
 import DressCodeTitle from "./components/DressCodeTitle";
 import GiftsTitle from "./components/GiftsTitle";
 import LocationTitle from "./components/LocationTitle";
@@ -25,7 +26,7 @@ export const Header = styled.div`
   background-color: #f5f5f4;
   height: 290px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     height: 450px;
   }
   @media (min-width: 1024px) {
@@ -55,7 +56,7 @@ export const Menu = styled.div`
     height: 100%;
     align-items: center;
 
-    @media (min-width: 768px) {
+    @media (min-width: 500px) {
       padding-right: 50px;
     }
     @media (min-width: 1024px) {
@@ -74,7 +75,7 @@ export const Menu = styled.div`
     list-style: none;
     margin-left: 10px;
 
-    @media (min-width: 768px) {
+    @media (min-width: 500px) {
       margin-left: 30px;
     }
     @media (min-width: 1024px) {
@@ -92,7 +93,7 @@ export const Menu = styled.div`
     color: #843c3c;
     font-size: 9px;
 
-    @media (min-width: 768px) {
+    @media (min-width: 500px) {
       font-size: 12px;
     }
     @media (min-width: 1024px) {
@@ -103,7 +104,7 @@ export const Menu = styled.div`
     }
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     height: 50px;
   }
   @media (min-width: 1024px) {
@@ -123,7 +124,7 @@ export const Flowers = styled(FlowersImg)`
   @media (min-width: 375px) {
     width: 115px;
   }
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     width: 200px;
   }
   @media (min-width: 1024px) {
@@ -146,7 +147,7 @@ export const PhotosContainer = styled.div`
   position: relative;
   z-index: 2;
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     justify-content: center;
     margin-left: 100px;
   }
@@ -168,7 +169,7 @@ export const PhotoFrame = styled.div`
   position: relative;
   z-index: ${(props) => props.zIndex};
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     width: ${(props) => (props.small ? "220px" : "240px")};
     height: ${(props) => (props.small ? "220px" : "240px")};
   }
@@ -189,7 +190,7 @@ export const Photo = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     width: ${(props) => (props.small ? "220px" : "240px")};
     height: ${(props) => (props.small ? "200px" : "200px")};
   }
@@ -208,7 +209,7 @@ export const PhotoText = styled.div`
   font-size: 10px;
   margin-top: 5px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     font-size: 20px;
   }
   @media (min-width: 1024px) {
@@ -233,7 +234,7 @@ export const DiagonalBox = styled.div`
   justify-content: center;
   align-items: center;
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     height: 370px;
   }
   @media (min-width: 1024px) {
@@ -251,7 +252,7 @@ export const NosCasamos = styled(NosCasamosImg)`
   width: 270px;
   transform: rotate(-10deg) scaleX(0.7);
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     width: 370px;
   }
   @media (min-width: 1024px) {
@@ -283,7 +284,7 @@ export const OurHistoryTitle = styled.div`
   font-weight: bold;
   text-align: center;
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     font-size: 35px;
   }
   @media (min-width: 1024px) {
@@ -300,7 +301,7 @@ export const OurHistoryText = styled.div`
   width: 70%;
   font-size: 12px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     font-size: 18px;
   }
   @media (min-width: 1024px) {
@@ -315,7 +316,7 @@ export const ThreeDots = styled.div`
   font-size: 32px;
   font-weight: bold;
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     font-size: 60px;
   }
   @media (min-width: 1024px) {
@@ -335,11 +336,11 @@ export const AvatarsContainer = styled.div`
   justify-content: space-around;
 `;
 
-export const Rochy = styled.img`
+export const Rochy = styled(RochyAvatar)`
   width: 140px;
   margin-top: -38px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     width: 240px;
     margin-top: 38px;
   }
@@ -357,7 +358,7 @@ export const Jeymar = styled(JeymarAvatar)`
   width: 150px;
   margin-top: -38px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     width: 250px;
     margin-top: 38px;
   }
@@ -386,7 +387,7 @@ export const InvitationInfoContainer = styled.div`
     margin-left: -8px;
     width: 332px;
 
-    @media (min-width: 768px) {
+    @media (min-width: 500px) {
       width: 500px;
     }
     @media (min-width: 1024px) {
@@ -404,7 +405,7 @@ export const ConfirmAttendanceContainer = styled.div`
   height: 60px;
   align-items: center;
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     height: 120px;
   }
   @media (min-width: 1024px) {
@@ -429,7 +430,7 @@ export const ConfirmAttendance = styled.div`
     font-size: 14px;
     text-align: right;
 
-    @media (min-width: 768px) {
+    @media (min-width: 500px) {
       width: 198px;
       font-size: 22px;
     }
@@ -454,7 +455,7 @@ export const ConfirmAttendance = styled.div`
     margin-left: 10px;
     font-weight: bold;
 
-    @media (min-width: 768px) {
+    @media (min-width: 500px) {
       height: 40px;
       font-size: 14px;
     }
@@ -487,7 +488,7 @@ export const Flowers2 = styled(FlowersImg2)`
   top: 110px;
   width: 90px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     top: 10px;
     width: 220px;
   }
@@ -505,7 +506,7 @@ export const Flowers3 = styled(FlowersImg3)`
   top: 10px;
   width: 90px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     width: 220px;
   }
   @media (min-width: 1024px) {
@@ -522,7 +523,7 @@ export const DressCodeContainer = styled.div`
 
 export const DressCode = styled(DressCodeTitle)`
   width: 170px;
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     width: 250px;
   }
   @media (min-width: 1024px) {
@@ -560,7 +561,7 @@ export const DressCodeInfo = styled.div`
     flex-basis: 40%;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     font-size: 16px;
   }
   @media (min-width: 1024px) {
@@ -587,7 +588,7 @@ export const GiftHeader = styled(GiftsTitle)`
   width: 170px;
   margin-top: 15px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     width: 250px;
   }
   @media (min-width: 1024px) {
@@ -605,7 +606,7 @@ export const GiftTextContainer = styled.div`
   text-align: center;
   margin-top: 10px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     font-size: 18px;
   }
   @media (min-width: 1024px) {
@@ -623,7 +624,7 @@ export const LocationContainer = styled.div`
   background-color: #bfd8d2;
   height: 60px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     height: 120px;
   }
   @media (min-width: 1024px) {
@@ -640,7 +641,7 @@ export const AirplaneImg = styled(Airplane)`
   width: 163px;
   top: -8px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     width: 283px;
   }
   @media (min-width: 1024px) {
@@ -657,7 +658,7 @@ export const CarImg = styled(Car)`
   width: 163px;
   top: -8px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     width: 283px;
   }
   @media (min-width: 1024px) {
@@ -673,7 +674,7 @@ export const LocationHeaderContainer = styled.div`
   justify-content: center;
   height: 75px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     height: 175px;
   }
   @media (min-width: 1024px) {
@@ -687,7 +688,7 @@ export const LocationHeaderContainer = styled.div`
 export const LocationHeaderText = styled(LocationTitle)`
   width: 100px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     width: 200px;
   }
   @media (min-width: 1024px) {
@@ -708,7 +709,7 @@ export const LocationCircle = styled.div`
   background-color: white;
   margin-top: -20px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     width: 180px;
     height: 180px;
     margin-top: -60px;
@@ -727,7 +728,7 @@ export const LocationInnerCircle = styled.img`
   width: 70px;
   height: 70px;
 
-  @media (min-width: 768px) {
+  @media (min-width: 500px) {
     width: 170px;
     height: 170px;
   }
