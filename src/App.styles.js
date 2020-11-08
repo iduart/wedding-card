@@ -343,7 +343,7 @@ const jeyMoveForward = keyframes`
     transform: translateX(1px);
   }
   100% {
-    transform: translateX(50px);
+    transform: translateX(40px);
   }
 `;
 
@@ -352,7 +352,7 @@ const rossMoveForward = keyframes`
     transform: translateX(1px);
   }
   100% {
-    transform: translateX(-50px);
+    transform: translateX(-40px);
   }
 `;
 
@@ -371,6 +371,23 @@ export const HeartImg = styled(Heart)`
   width: 30px;
   height: 30px;
   animation: 3s ${displayHeart} infinite alternate;
+
+  @media (min-width: 500px) {
+    width: 240px;
+    margin-top: 38px;
+    position: relative;
+    top: 50px;
+  }
+  @media (min-width: 1024px) {
+    width: 340px;
+    margin-top: 88px;
+    top: 100px;
+  }
+  @media (min-width: 1440px) {
+    width: 440px;
+    margin-top: 120px;
+    top: 150px;
+  }
 `;
 
 export const Rochy = styled(RochyAvatar)`
