@@ -57,6 +57,7 @@ import {
   LocationInnerCircle,
   AirplaneImg,
   CarImg,
+  HeartImg,
 } from './App.styles';
 
 function App() {
@@ -160,6 +161,7 @@ function App() {
       </OurHistory>
       <AvatarsContainer>
         <Jeymar />
+        <HeartImg />
         <Rochy />
       </AvatarsContainer>
       <InvitationInfoContainer id="wedding-info">

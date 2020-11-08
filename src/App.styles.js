@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import FlowersImg from "./components/FlowersImg";
 import FlowersImg2 from "./components/FlowersImg2";
 import FlowersImg3 from "./components/FlowersImg3";
@@ -10,7 +10,8 @@ import GiftsTitle from "./components/GiftsTitle";
 import LocationTitle from "./components/LocationTitle";
 import Airplane from "./components/Airplane";
 import Car from "./components/Car";
-import paperbg from './img/paperbg.jpg';
+import Heart from "./components/Heart";
+import paperbg from "./img/paperbg.jpg";
 
 export const Main = styled.div`
   overflow-x: hidden;
@@ -337,9 +338,47 @@ export const AvatarsContainer = styled.div`
   justify-content: space-around;
 `;
 
+const jeyMoveForward = keyframes`
+  0% {
+    transform: translateX(1px);
+  }
+  100% {
+    transform: translateX(50px);
+  }
+`;
+
+const rossMoveForward = keyframes`
+  0% {
+    transform: translateX(1px);
+  }
+  100% {
+    transform: translateX(-50px);
+  }
+`;
+
+const displayHeart = keyframes`
+  0% {
+    opacity: 0;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+`;
+
+export const HeartImg = styled(Heart)`
+  width: 30px;
+  height: 30px;
+  animation: 3s ${displayHeart} infinite alternate;
+`;
+
 export const Rochy = styled(RochyAvatar)`
   width: 140px;
   margin-top: -38px;
+  position: relative;
+  z-index: 0;
+  animation: 3s ${rossMoveForward} infinite alternate;
 
   @media (min-width: 500px) {
     width: 240px;
@@ -358,6 +397,9 @@ export const Rochy = styled(RochyAvatar)`
 export const Jeymar = styled(JeymarAvatar)`
   width: 150px;
   margin-top: -38px;
+  position: relative;
+  z-index: 1;
+  animation: 3s ${jeyMoveForward} infinite alternate;
 
   @media (min-width: 500px) {
     width: 250px;
