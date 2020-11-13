@@ -1,15 +1,15 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import WeddingCard from './WeddingCard';
 
 export default function App() {
   return (
-    <Router basename="/wedding-card/">
+    <Router>
       <Switch>
-        <Route path="/invitacion">
+        <Route exact path="/invitacion">
           <WeddingCard invitation />
         </Route>
-        <Route path="/participacion">
+        <Route exact path="/participacion">
           <WeddingCard />
         </Route>
       </Switch>
