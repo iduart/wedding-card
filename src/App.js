@@ -4,7 +4,7 @@ import WeddingCard from './WeddingCard';
 
 export default function App() {
   return (
-    <Router>
+    <Router basename="/wedding-card/">
       <Switch>
         <Route path="/invitacion">
           <WeddingCard invitation />
