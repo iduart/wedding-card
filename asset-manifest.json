@@ -1,20 +1,32 @@
 {
   "files": {
     "main.css": "/wedding-card/static/css/main.29cab2dd.chunk.css",
-    "main.js": "/wedding-card/static/js/main.5691c054.chunk.js",
-    "main.js.map": "/wedding-card/static/js/main.5691c054.chunk.js.map",
+    "main.js": "/wedding-card/static/js/main.1c467d6d.chunk.js",
+    "main.js.map": "/wedding-card/static/js/main.1c467d6d.chunk.js.map",
     "runtime-main.js": "/wedding-card/static/js/runtime-main.134803b5.js",
     "runtime-main.js.map": "/wedding-card/static/js/runtime-main.134803b5.js.map",
-    "static/js/2.0a0741a6.chunk.js": "/wedding-card/static/js/2.0a0741a6.chunk.js",
-    "static/js/2.0a0741a6.chunk.js.map": "/wedding-card/static/js/2.0a0741a6.chunk.js.map",
+    "static/js/2.9192533c.chunk.js": "/wedding-card/static/js/2.9192533c.chunk.js",
+    "static/js/2.9192533c.chunk.js.map": "/wedding-card/static/js/2.9192533c.chunk.js.map",
     "index.html": "/wedding-card/index.html",
     "static/css/main.29cab2dd.chunk.css.map": "/wedding-card/static/css/main.29cab2dd.chunk.css.map",
-    "static/js/2.0a0741a6.chunk.js.LICENSE.txt": "/wedding-card/static/js/2.0a0741a6.chunk.js.LICENSE.txt"
+    "static/js/2.9192533c.chunk.js.LICENSE.txt": "/wedding-card/static/js/2.9192533c.chunk.js.LICENSE.txt",
+    "static/media/1.bea875f8.jpg": "/wedding-card/static/media/1.bea875f8.jpg",
+    "static/media/2.bc3b6cfe.jpg": "/wedding-card/static/media/2.bc3b6cfe.jpg",
+    "static/media/3.b6af4da9.jpg": "/wedding-card/static/media/3.b6af4da9.jpg",
+    "static/media/4.27144144.jpg": "/wedding-card/static/media/4.27144144.jpg",
+    "static/media/5.0c1d7063.jpg": "/wedding-card/static/media/5.0c1d7063.jpg",
+    "static/media/6.86bd4caa.jpg": "/wedding-card/static/media/6.86bd4caa.jpg",
+    "static/media/7.4e7c4166.jpg": "/wedding-card/static/media/7.4e7c4166.jpg",
+    "static/media/8.e252151f.jpg": "/wedding-card/static/media/8.e252151f.jpg",
+    "static/media/9.3b5c7c3e.jpg": "/wedding-card/static/media/9.3b5c7c3e.jpg",
+    "static/media/his.d0afa8ca.png": "/wedding-card/static/media/his.d0afa8ca.png",
+    "static/media/map.bf1264fe.png": "/wedding-card/static/media/map.bf1264fe.png",
+    "static/media/paperbg.9b937b67.jpg": "/wedding-card/static/media/paperbg.9b937b67.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.134803b5.js",
-    "static/js/2.0a0741a6.chunk.js",
+    "static/js/2.9192533c.chunk.js",
     "static/css/main.29cab2dd.chunk.css",
-    "static/js/main.5691c054.chunk.js"
+    "static/js/main.1c467d6d.chunk.js"
   ]
 }
