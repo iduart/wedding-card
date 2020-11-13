@@ -530,6 +530,26 @@ export const ConfirmAttendance = styled.div`
   }
 `;
 
+export const ParticipacionContainer = styled.div`
+  display: flex;
+  background-color: #d17a7a;
+  height: 250px;
+
+  > svg {
+    width: 100%;
+  }
+
+  @media (min-width: 500px) {
+    height: 500px;
+  }
+  @media (min-width: 1024px) {
+    height: 750px;
+  }
+  @media (min-width: 1440px) {
+    height: 1000px;
+  }
+`;
+
 /* 
  GIFTS
  */
