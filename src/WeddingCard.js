@@ -202,7 +202,7 @@ function WeedingCard({ invitation }) {
                   <img src={her} alt="vestido ellas" />
                 </div>
                 <div className="dress-description">
-                  Vestido largo/ corto floreado
+                  Traje largo floreado
                 </div>
               </DressCodeInfo>
               <DressCodeInfo>
@@ -210,7 +210,7 @@ function WeedingCard({ invitation }) {
                 <div className="dress-picture">
                   <img src={his} alt="vestido ellas" />
                 </div>
-                <div className="dress-description">Guayabera</div>
+                <div className="dress-description">Guayabera / Camisa lino o floreada</div>
               </DressCodeInfo>
             </DressCodeContainer>
             <Separator />
